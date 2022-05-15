@@ -8,7 +8,7 @@ body {
     font-family: arial;
     background: #222831;
     color: #EEEEEE;
-    max-width: 1000px
+    height: 100%;
 }
 
 main {
@@ -50,7 +50,7 @@ h1:after {
     top: 90%;
     bottom: 50%;
     height: 5%;
-    width: 90%;
+    width: 100%;
     background: #00ADB5;
     transition: transform 0.3s;
     opacity: 0;
@@ -144,5 +144,3 @@ button:hover {
     transform: translateX(-100%);
     opacity: 1;
 }
-
-
