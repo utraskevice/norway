@@ -11,6 +11,15 @@ body {
     max-width: 1000px
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+}
+
 #play {
     font-size: 4em;
     cursor: pointer;
@@ -89,6 +98,7 @@ button:hover {
     opacity: 0;
     transition: 1.5s;
     overflow: hidden;
+    justify-content: center;
 }
 
 .tabsAnimation {
