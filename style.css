@@ -87,6 +87,7 @@ button:hover {
     transform: skewX(70deg);
     opacity: 0;
     transition: 1.5s;
+    overflow: hidden;
 }
 
 .tabsAnimation {
